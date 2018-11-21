@@ -1,0 +1,177 @@
+div {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.logotipo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 25%;
+}
+
+.todosbanner {
+    display: flex;
+    justify-content: space-around;
+    flex-flow: row wrap;
+    margin-bottom:40px
+}
+
+.banner {
+    max-width: 100%;
+    margin-bottom: 20px;
+}
+
+.texto1 {
+    display: flex;
+    text-align:justify;
+    justify-content: space-around;
+    flex-direction: row;
+    margin: 10px;
+}
+.parrafo and .heading {
+    margin-right: 20px; 
+}
+
+.Chibi {
+    border-top: 1px dotted;
+    padding-top: 1%;
+    font-style: bold;
+}
+
+.cuadro {
+    border-style: solid;
+    width: 80px;
+    height: 80px;
+    padding: 30px;
+    border-radius: 50px 20px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-right: 40px;
+    margin-left: 40px;
+}
+
+.Serena {
+    background-color: coral;
+}
+.Mercury {
+    background-color: lightblue;
+}
+.Mars {
+    background-color: brown;
+}
+.Jupiter {
+    background-color: lightgreen;
+}
+.Venus {
+    background-color: yellow;
+}
+.Uranus {
+    background-color: aqua;
+}
+.Neptune {
+    background-color: turquoise;
+}
+.Pluto {
+    background-color: darkmagenta;
+}
+.Saturn {
+    background-color: darkorchid;
+}
+.Fighter {
+    background-color: gold;
+}
+
+.boxes {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+}
+
+.texto2 {
+    border-top: 1px dotted;
+    padding-top: 1%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    margin: 10px;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-around;
+    flex-flow: row wrap;
+    margin-bottom:40px;
+    padding: 20px;
+    background-color: black;
+    color: white;
+}
+
+@media only screen and (min-width:300px) and (max-width: 736px) {
+    .todosbanner {
+        display: flex;
+        flex-flow: column wrap;
+        justify-content: center;
+    }
+    a {
+        margin-top: 10px;
+        border-top: 1px solid lightgrey;
+        text-align: center
+    }
+    .banner {
+        max-width: 100%;
+        height: auto;
+        margin-bottom: 20px;
+    }
+
+
+    .texto1 {
+        display: flex;
+        text-align:justify;
+        justify-content: space-around;
+        flex-direction: column;
+        margin: 20px;
+    }
+    .parrafo{
+        margin-top: 20px; 
+    }
+
+    .Chibi {
+        border-top: 1px dotted;
+        padding-top: 1%;
+        font-style: bold;
+    }
+
+    .cuadro {
+        border-style: solid;
+        width: 60px;
+        height: 60px;
+        padding: 30px;
+        border-radius: 50px 20px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        margin-right: 10px;
+        margin-left: 10px;
+    }
+    .Fighter {
+        visibility: hidden;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        margin-right: 0px;
+        margin-left: 0px;
+        padding: 0px;
+        height: 0px
+    }
+
+    .texto2 {
+        border-top: 1px dotted;
+        padding-top: 1%;
+        display: flex;
+        text-align: justify;
+        justify-content: space-between;
+        flex-direction: column;
+        margin: 20px;
+    }
+    
+}
